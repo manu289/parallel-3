@@ -19,7 +19,7 @@ pipeline {
 				sh 'mvn clean install'
 			}
 		}
-    		stage ('Java Project') {
+    		stage ('Java test') {
 			agent { label 'slaveforjava' }
 			steps {
 				git 'https://github.com/manu289/Test.git'
