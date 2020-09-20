@@ -24,6 +24,7 @@ pipeline {
 			steps {
 				git 'https://github.com/manu289/Test.git'
 				sh 'mvn clean install'
+				// hi this is webhhook
 		}
 	}
 		
